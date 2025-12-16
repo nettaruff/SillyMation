@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project  source="Harmony Advanced (HarmonyAdvanced.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Tue Dec 16 23:41:09 2025" timeMsec="1765921269630" username="torrell" realUsername="torrell" creator="harmony">
+<project  source="Harmony Advanced (HarmonyAdvanced.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Tue Dec 16 23:48:04 2025" timeMsec="1765921684769" username="torrell" realUsername="torrell" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -23,6 +23,23 @@
     <dwg name="18"/>
    </drawings>
   </element>
+  <element id="2" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -43,7 +60,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0ce452e4ed00f1c1" nbframes="60" startFrame="1" stopFrame="20">
+  <scene name="Top" id="0ce452e4ed00f1c1" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
@@ -64,6 +81,21 @@
      <elementSeq exposures="16" val="16" id="1"/>
      <elementSeq exposures="17" val="17" id="1"/>
      <elementSeq exposures="18" val="18" id="1"/>
+    </column>
+    <column type="0" name="ATV-0CEAE4155644BEEE4A101BFC" displayOrder="0" width="100" anonymous="true" id="2">
+     <elementSeq exposures="19,32,45" val="1" id="2"/>
+     <elementSeq exposures="20,33,46" val="2" id="2"/>
+     <elementSeq exposures="21,34,47" val="3" id="2"/>
+     <elementSeq exposures="22,35,48" val="4" id="2"/>
+     <elementSeq exposures="23,36,49" val="5" id="2"/>
+     <elementSeq exposures="24,37,50" val="6" id="2"/>
+     <elementSeq exposures="25,38,51" val="7" id="2"/>
+     <elementSeq exposures="26,39,52" val="8" id="2"/>
+     <elementSeq exposures="27,40,53" val="9" id="2"/>
+     <elementSeq exposures="28,41,54" val="10" id="2"/>
+     <elementSeq exposures="29,42,55" val="11" id="2"/>
+     <elementSeq exposures="30,43,56" val="12" id="2"/>
+     <elementSeq exposures="31,44,57" val="13" id="2"/>
     </column>
    </columns>
    <options>
@@ -264,12 +296,127 @@
        </color>
       </attrs>
      </module>
+     <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0CEAE4155644BEEE4A101BFC">
+         <layer val=""/>
+        </element>
+        <customName>
+         <name val=""/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <colorTransformation val="Linear"/>
+       <colorSpace val="sRGB"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="zoomIndependent"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+       <tileHorizontal val="false"/>
+       <tileVertical val="false"/>
+       <framerate val="24" defaultValue="-1"/>
+       <useFileUnits val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="Drawing" in="Composite" inport="1"/>
      <link out="Colour-Card" in="Composite" inport="0"/>
+     <link out="Drawing_1" in="Composite" inport="2"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
@@ -317,7 +464,7 @@
  </timeline>
  <metas>
   <meta type="checksumValidation" name="checksumValidation" creator="Harmony Advanced" version="1.0">
-   <value data="6F000000000000000303313684A960602B0EC1C36905C645460B1BEC36D7C445D0C0E1080CAB564963EA97231A1F44FFDB1CD428F55398A66F304E09A594AA683CB5577986C9E06474083E0F302C8E5F017683B29B980BFBB5F2A055BB4B5DD2DA4E3B86BAD8731EDEF3C513FF0C576F0FB9A358FAF1F45B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A55784D6A45784D446B7A4E5441355768634E4D7A55784D6A45774D446B7A4E544135576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E4441304D7A6B775844414E42676B71686B6947397730424151454641414E4C41444249416B45417A596E620A45574E516B45723838594D38486D2F5753784B5363696A4557546653533943684F32545879354B48326F476C46587839304844693577784F58524D49767542480A6A6267777365792F55706A735257315141514944415141424D41304743537147534962334451454242515541413447424148567933367952356B3547384D482F0A4A4A5661464A356268433679735A6B355159556F5A304B4A376B37526B5A69534A4C796D57773365306675354C4E4E4D5555566B76367A4F6E677A594B6673470A512B34474D344548654756342B71304F7276556B53533751372B546B4D37564C5A7630424F6E6D427A6E527959474D3946717464696575584C585653555A432F0A327253764E6966576F756A6E535048734F646C79794D43534C38534E0A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A4000000097A24D075013F6505A588B72DF2ED2F212924BA46FAF472EB3D9B86A97C249AA0AE444A5C6CC5BF097827D93A4E28C9B9B74C72CB459A63D6113B5DEED7AA303"/>
+   <value data="6F000000000000000303D1D664498080CBEE212389E526A5A6EBFB0CD63724A5302001E8EC4BB6A9830A77C3FAFFA41F3BFC34C815B378468FD0AEE945744A88DC55B7996629008494E8DEEFD0CC6EBFE19663527B78EB1B551240B55BABBD323AAEDB665A3893FE3E1325F31FECB78FEF5943B81A11145B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A55784D6A45784D446B7A4E5441355768634E4D7A55784D6A45774D446B7A4E544135576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E4441304D7A6B775844414E42676B71686B6947397730424151454641414E4C41444249416B45417A596E620A45574E516B45723838594D38486D2F5753784B5363696A4557546653533943684F32545879354B48326F476C46587839304844693577784F58524D49767542480A6A6267777365792F55706A735257315141514944415141424D41304743537147534962334451454242515541413447424148567933367952356B3547384D482F0A4A4A5661464A356268433679735A6B355159556F5A304B4A376B37526B5A69534A4C796D57773365306675354C4E4E4D5555566B76367A4F6E677A594B6673470A512B34474D344548654756342B71304F7276556B53533751372B546B4D37564C5A7630424F6E6D427A6E527959474D3946717464696575584C585653555A432F0A327253764E6966576F756A6E535048734F646C79794D43534C38534E0A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A4000000075120752598B25A3FB91E1D8A333704918B80B50AB73BED62713DBCE091EA1DE8BC6147337ECAFB82986C9E6999078368FC16B173CA3BB415B6B9E68791F60FD"/>
   </meta>
  </metas>
 </project>

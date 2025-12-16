@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elements  source="Harmony Advanced (HarmonyAdvanced.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Tue Dec 16 23:41:09 2025" timeMsec="1765921269603" username="torrell" realUsername="torrell">
+<elements  source="Harmony Advanced (HarmonyAdvanced.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Tue Dec 16 23:48:04 2025" timeMsec="1765921684769" username="torrell" realUsername="torrell">
  <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
